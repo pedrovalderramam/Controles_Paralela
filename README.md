@@ -30,4 +30,8 @@ Donde:
 
 # EJECUCIÓN
 
+> Borrar el ejecutable a.out y volver a crearlol
+
+> g++ escala.cpp `pkg-config --cflags --libs opencv` para crear el ejecutable
+
 > ./programa -e 2K -f /ruta/imagen_entrada.png -o /ruta/imagen_salida.png
